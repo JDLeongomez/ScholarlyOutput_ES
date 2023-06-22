@@ -1,5 +1,5 @@
 # ***ScholarlyOutput*** <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg" align="right" width=100 height=100 alt=""/>
-PGrafique sus resultados académicos con el paquete [<code>scholar</code>](https://cran.r-project.org/web/packages/scholar/vignettes/scholar.html) de R. 
+Grafique sus resultados académicos con el paquete [<code>scholar</code>](https://cran.r-project.org/web/packages/scholar/vignettes/scholar.html) de R. 
 
 <!-- badges: start -->
 ![](https://img.shields.io/github/last-commit/JDLeongomez/ScholarlyOutput)
