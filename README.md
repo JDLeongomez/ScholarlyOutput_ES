@@ -11,11 +11,11 @@ PGrafique sus resultados académicos con el paquete [<code>scholar</code>](https
 
 [![](https://img.shields.io/badge/Abrir%20la%20app-8A2BE2)](https://shiny.jdl-svr.lat/ScholarlyOutput_ES)
 
-(For the English version, go to https://github.com/JDLeongomez/ScholarlyOutput)
+(**NOTE:** For the English version, go to https://github.com/JDLeongomez/ScholarlyOutput)
 
 Sólo necesita el enlace completo a su perfil de Google Scholar (basta con copiarlo y pegarlo en el recuadro), y creará un gráfico con su nombre (tal como aparece en su perfil de Google Scholar) y dos paneles:
 
-ol type="A">
+<ol type="A">
   <li><b>Citas por publicación</b>, incluyendo tanto tu índice h como, de manera importante, el <a href="https://es.wikipedia.org/wiki/G-index">índice g</a> (que nunca antes había visto en gráficos)</li>
   <li><b>Número de publicaciones y citas por año</b>, incluyendo el número total de citas</li>
 </ol>
