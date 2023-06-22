@@ -11,6 +11,8 @@ PGrafique sus resultados académicos con el paquete [<code>scholar</code>](https
 
 [![](https://img.shields.io/badge/Abrir%20la%20app-8A2BE2)](https://shiny.jdl-svr.lat/ScholarlyOutput_ES)
 
+(For the English version, go to https://github.com/JDLeongomez/ScholarlyOutput)
+
 Sólo necesita el enlace completo a su perfil de Google Scholar (basta con copiarlo y pegarlo en el recuadro), y creará un gráfico con su nombre (tal como aparece en su perfil de Google Scholar) y dos paneles:
 
 ol type="A">
