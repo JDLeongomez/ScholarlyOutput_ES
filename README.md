@@ -1,5 +1,5 @@
 # ***ScholarlyOutput*** <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg" align="right" width=100 height=100 alt=""/>
-Grafique sus resultados académicos con el paquete [<code>scholar</code>](https://cran.r-project.org/web/packages/scholar/vignettes/scholar.html) de R. 
+Grafica tus resultados académicos con el paquete [<code>scholar</code>](https://cran.r-project.org/web/packages/scholar/vignettes/scholar.html) de R. 
 
 <!-- badges: start -->
 ![](https://img.shields.io/github/last-commit/JDLeongomez/ScholarlyOutput)
@@ -13,14 +13,14 @@ Grafique sus resultados académicos con el paquete [<code>scholar</code>](https:
 
 (**NOTE:** For the English version, go to https://github.com/JDLeongomez/ScholarlyOutput)
 
-Sólo necesita el enlace completo a su perfil de Google Scholar (basta con copiarlo y pegarlo en el recuadro), y creará un gráfico con su nombre (tal como aparece en su perfil de Google Scholar) y dos paneles:
+Sólo necesitas el enlace completo a tu perfil de Google Scholar (basta con copiarlo y pegarlo en el recuadro), y la app creará un gráfico con tu nombre (tal como aparece en tu perfil de Google Scholar) y dos paneles:
 
 <ol type="A">
   <li><b>Citas por publicación</b>, incluyendo tanto tu índice h como, de manera importante, el <a href="https://es.wikipedia.org/wiki/G-index">índice g</a> (que nunca antes había visto en gráficos)</li>
   <li><b>Número de publicaciones y citas por año</b>, incluyendo el número total de citas</li>
 </ol>
 
-A continuación se muestra un ejemplo de la interfaz de usuario **_ScholarlyOutput_** que muestra una gráfica de mi propio perfil:
+A continuación hay un ejemplo de la interfaz de usuario **_ScholarlyOutput_** que muestra una gráfica de mi propio perfil:
 
 ![Interfaz de usuario de ScholarlyOutput](img/ScholarlyOutput.jpg)
 
