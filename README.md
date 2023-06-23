@@ -7,7 +7,7 @@ Grafica tus resultados académicos con el paquete [<code>scholar</code>](https:/
 [![DOI](https://zenodo.org/badge/536271372.svg)](https://zenodo.org/badge/latestdoi/536271372)
 <!-- badges: end -->
 
-**_ScholarlyOutput_** es una pequeña aplicación R Shiny para crear y exportar un gráfico completo de su perfil académico [**Google Scholar**](https://scholar.google.com/)
+**_ScholarlyOutput_** es una pequeña aplicación R Shiny para crear y exportar un gráfico completo de tu perfil académico de [**Google Scholar**](https://scholar.google.com/)
 
 [![](https://img.shields.io/badge/Abrir%20la%20app-8A2BE2)](https://shiny.jdl-svr.lat/ScholarlyOutput_ES)
 
