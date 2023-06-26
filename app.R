@@ -257,7 +257,7 @@ server <- function(input, output) {
         
         ##Add date to final plot
         Sys.setlocale('LC_TIME','Spanish_Colombia.utf8')
-        annotate_figure(p.fin, 
+        annotate_figure(p.fin,
                         bottom = text_grob(paste0("Datos tomados de Google Scholar. Figura actualizada el ",
                                                   format(Sys.Date(),'%d de %B de %Y')),
                                            hjust = 1.05, x = 1, size = 8),
