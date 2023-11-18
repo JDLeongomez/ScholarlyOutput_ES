@@ -7,6 +7,8 @@
 library(shiny)
 library(thematic)
 library(shinythemes)
+library(shinycssloaders)
+library(shinyWidgets)
 library(colourpicker)
 library(stringr)
 library(scholar)
@@ -56,9 +58,9 @@ ui <- fluidPage(theme = c("united"),
                        width = 600, 
                        placeholder = "https://scholar.google.com/citations?user=8Q0jKHsAAAAJ"), 
              h4("Descarga la gráfica"),
-             downloadButton("SavePlotPNG", label = "Descargar PNG"),
-             downloadButton("SavePlotPDF", label = "Descargar PDF"),
-             downloadButton("SavePlotSVG", label = "Descargar SVG"),
+             downloadButton("SavePlotPNG", label = "PNG"),
+             downloadButton("SavePlotPDF", label = "PDF"),
+             downloadButton("SavePlotSVG", label = "SVG"),
              hr(),
              tags$h4("Opciones gráficas"),
              colourInput("accentCol", 
@@ -67,7 +69,7 @@ ui <- fluidPage(theme = c("united"),
                          returnName = TRUE),
              tags$h6(HTML("<b>Nota:</b> alternativamente, puedes pegar el  
                           nombre (p.ej. <i><b>blue</b></i>) o
-                          <a style=color:#EA4335;  href='https://g.co/kgs/Dsj3Za'>código HEX</a> 
+                          <a style=color:#EA4335;  href='https://www.google.com/search?q=hex+color+picker'  target='_blank'>código HEX</a> 
                           (p.ej. <b>#008080</b>) de un color")),
              hr(),
              tags$h4("Filtrar publicaciones"),
@@ -86,18 +88,18 @@ ui <- fluidPage(theme = c("united"),
                           min = 1,
                           max = lubridate::year(Sys.Date()),
                           width = 300),
-             br(),
-             br(),
-             br(),
              #downloadLink("downloadPlot", "Download Plot")
       ),
 
       # Show a plot of the generated distribution
       column(6,
              offset = 1,
+             nextGenShinyApps::submitButton("runSim", text = "¿Todo listo? ¡Haz la gráfica!", 
+                                            icon("paper-plane"), bg.type = "danger"),
              br(),
              br(),
-             plotOutput("scholarPlot")
+             plotOutput("scholarPlot") %>% 
+               withSpinner(color = "#EA4335")
         )
     )
 )
