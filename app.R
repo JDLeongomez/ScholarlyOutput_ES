@@ -231,7 +231,7 @@ server <- function(input, output) {
           geom_col(fill = "lightgrey") +
           geom_line(aes(y = a + cites*b), color = input$accentCol) +
           scale_x_continuous(breaks = pretty_breaks()) +
-          scale_y_continuous("Publicaciones", breaks = pretty_breaks(), sec.axis = sec_axis(~ (. - a)/b, name = "Citations")) +
+          scale_y_continuous("Publicaciones", breaks = pretty_breaks(), sec.axis = sec_axis(~ (. - a)/b, name = "Citas")) +
           theme_pubclean() +
           annotate("text", y = Inf, x = -Inf,
                    label = paste0("Total de citas = ", comma(profile$total_cites)),
