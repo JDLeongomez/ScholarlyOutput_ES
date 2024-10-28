@@ -18,6 +18,7 @@ library(ggplot2)
 library(ggpubr)
 library(scales)
 library(purrr) 
+Sys.setlocale('LC_TIME','es_CO.UTF-8')
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(theme = c("united"),
